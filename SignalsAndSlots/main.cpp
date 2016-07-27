@@ -76,6 +76,16 @@ int main(int argc, const char * argv[]) {
 	assert(free_function_state == 1);
 	assert(Callee::state == 2);
 
+	signalZero.disconnect(free_function_zero);
+	signalZero.disconnect(&c0);
+	signalZero.disconnect(&c1);
+
+	signalZero();
+
+	// state should not have been modified
+	assert(free_function_state == 1);
+	assert(Callee::state == 2);
+
 
 	// test 1 argument
 	signals::signal<void(int)> signalOne;
