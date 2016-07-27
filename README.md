@@ -1,6 +1,8 @@
 # SignalsAndSlots
 A toy signal/slot implementation for C++, with optional automatic unregistration of observers on their destruction. There are many signal/slot libraries for c++. This one is mine.
 
+No dependencies, just C++11
+
 ---
 
 Usage is simple:
