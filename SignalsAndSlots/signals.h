@@ -95,8 +95,11 @@ namespace signals {
 	
 	 signal
 	 
+	 Base class for emitting signals. Define a signal with its signature, e.g., signals::signal<void(int)> to define a signal which passes a single int.
 	 
-
+	 Up to three arguments are supported. Emitting the signal is done via the () operator. 
+	 
+	 Free functions and methods on objects are supported.
 
 	*/
 	template< typename Signature >

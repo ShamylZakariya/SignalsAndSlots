@@ -26,6 +26,7 @@
 		6351695E1D482429009ECE56 /* SignalsAndSlots */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SignalsAndSlots; sourceTree = BUILT_PRODUCTS_DIR; };
 		635169611D482429009ECE56 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		635169681D482474009ECE56 /* signals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signals.h; sourceTree = "<group>"; };
+		635169691D484C38009ECE56 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		635169551D482429009ECE56 = {
 			isa = PBXGroup;
 			children = (
+				635169691D484C38009ECE56 /* README.md */,
 				635169601D482429009ECE56 /* SignalsAndSlots */,
 				6351695F1D482429009ECE56 /* Products */,
 			);
@@ -241,6 +243,7 @@
 				635169671D482429009ECE56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
