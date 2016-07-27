@@ -1,11 +1,10 @@
 #pragma once
 
 //
-//  SignalsAndSlots.h
-//  Surfacer
+//  signals.h
 //
-//  Created by Zakariya Shamyl on 8/31/11.
-//  Copyright 2011 TomorrowPlusX. All rights reserved.
+//  Created by Zakariya Shamyl.
+//	The MIT License (MIT)
 //
 
 #include <map>
